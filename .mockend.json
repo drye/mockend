@@ -3,15 +3,15 @@
     "id": "int",
     "username": "string",
     "enabled": "boolean",
-    "created": "date",
+    "created": "date"
   },
   "Post": {
     "title": "string",
     "views": "int",
     "published": "boolean",
     "createdAt": "date",
-    "comments": "Comment[]"
-    "user": "User",
+    "comments": "Comment[]",
+    "user": "User"
   },
   "Comment": {
     "body": "string",
